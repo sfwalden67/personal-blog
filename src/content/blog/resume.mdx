@@ -1,0 +1,202 @@
+---
+title: 'Resume'
+description: >-
+  Skills, Experience, Education, Certifications
+pubDate: 2024-11-01T27:00:00.000Z
+heroImage: ../../assets/images/bg.jpg
+category: Resume
+tags:
+  - JavaScript
+  - css
+  - HTML5
+  - GitHub
+---
+
+## SEAN WALDEN
+
+### sfwalden@gmail.com | 206.319.8799
+
+<br />
+<b>ABOUT ME</b>
+Software engineer and systems administrator with an extensive background in airspace operational
+efficiency, communications protocols, digital signal processing, data mining, system security, and
+integration. I enjoy finding elegant solutions to complex problems in challenging environments,
+focusing on improving processes and enhancing automation. Working closely with local and remote
+teams, I leverage agile methods to improve communication, track workflow, and deliver results.{' '}
+
+<b>TECHNICAL SKILLS</b>
+<i>System administration</i>: Linux package management: (yum, dnf, apt), SSL Certificate management,
+Firewall configuration: ufw, iptables, Group management: ActiveDirectory/LDAP , netgroups
+<i>Databases</i>: Postgres, MySQL, Oracle
+<i>Container Orchestration</i>: Docker-compose, Docker Swarm, k8s
+<i>Cloud Services</i>: Azure VM, GCP Big Query
+<i>Scripting</i>: Bash, Python, Ansible, SplunkQL, PHP, PERL
+<i>Languages</i>: Java, Python, Javascript
+<i>Operating Systems</i>: Linux (Ubuntu, RHEL/Oracle Linux), Windows
+
+<b>EXPERIENCE</b>
+<b>
+	<div class='grid grid-cols-2 gap-4'>
+		<div>
+			<p>Boeing, Flight Test</p>
+			<p>Software/Systems Engineer</p>
+		</div>
+		<div>
+			<p>Seattle, WA</p>
+			<p>Jun 2016–Present</p>
+		</div>
+	</div>
+</b>
+Development:
+<ul>
+	<li>
+		Data Mining Search – Data mining web application designed to facilitate search and retrieval of
+		NW Flight Test data meeting specific criteria (nodeJS/Typescript/Python). Metadata stored in
+		Postgres, time series data stored in InfluxDB. Built on RESTful web services and deployed to
+		Kubernetes on hybrid cluster using AWS VMs and lab servers. Currently in production serving
+		flight test analysts and engineers. Unit testing with jest (nodeJS), pytest (Python)
+	</li>
+	<li>
+		Automated Frequency Analysis Tool – Led a team of junior engineers to develop a Python-based
+		Jupyter notebook designed to automate signal frequency analysis and highlight anomalous behavior
+		and classify the likelihood of failure.
+	</li>
+	<li>
+		Anomalous Signal Detection – Guided a team of engineers to develop a tool to look for anomalous
+		signal behavior using Keras, a deep learning API for implementing neural networks.
+	</li>
+	<li>
+		Aircraft Configuration System - Led team of engineers to create API to allow developers to
+		request critical aircraft configuration information from Oracle database.
+	</li>
+</ul>
+DevOps:
+<ul>
+	<li>
+		Ansible - Created scripts to automate and standardize the provisioning of packages, firewall
+		rules, and user privileges on new servers
+	</li>
+	<li>Git/Gitlab - CI/CD scripts to run tests, code security analysis, deployment to Kubernetes</li>
+	<li>
+		Splunk - designed dashboards and alerts using Splunk QL to automate notifications to response
+		teams and provide situational awareness
+	</li>
+</ul>
+Linux Administration:
+<ul>
+	<li>
+		Created Azure RHEL VMs equipped with all required development tools to standardize the team's
+		environment and rapidly onboard new members.
+	</li>
+	<li>Streamlined user management access using Boeing Enterprise netgroups.</li>
+	<li>Deployed, and configured nginx as a reverse proxy</li>
+	<li>Bash scripting and cron jobs automate resource monitoring and cleanup.</li>
+	<li>
+		Server certificate management - create, revoke, and deploy server certificates to secure service
+		communication
+	</li>
+	<li>
+		Database backup, dump, restore - migrating databases (Postgres, MySQL) and associated services
+	</li>
+	<li>Group management using Active Directory LDAP, and UNIX netgroups</li>
+</ul>
+Azure Administration:
+<ul>
+	<li>Created/managed Azure RHEL VMs, Azure Event Hub, and Azure Blob storage.</li>
+</ul>
+Cloud/container services:
+<ul>
+	<li>Keycloak Identity and Access Management service deployed on Kubernetes</li>
+	<li>Argo workflow manager deployed on Kubernetes</li>
+	<li>Microservices deployed on Kubernetes</li>
+	<li>Docker swarm deployed to manage service stack running on docker network</li>
+	<li>
+		BigQuery Proof-of-concept to test viability as a time-series database to replace lab hosted
+		Influx DB.
+	</li>
+</ul>
+Data pipeline:
+<ul>
+	<li>
+		Extract, Transform, Load (ETL) flight test data and metadata into Postgres relational database
+		and InfluxDB time-series database to facilitate custom queries to isolate data of interest.
+	</li>
+</ul>
+
+<b>
+	<div class='grid grid-cols-2 gap-4'>
+		<div>
+			<p>Boeing, Airspace Operational Efficiency</p>
+			<p>Software Engineer</p>
+		</div>
+		<div>
+			<p>Seattle, WA</p>
+			<p>July 2002–June 2016</p>
+		</div>
+	</div>
+</b>
+Development:
+<ul>
+	<li>
+		Trajectory Calculation/Prediction (Java): Optimal trajectory calculation to optimize fuel
+		savings. Verified with actual FMC hardware in IASL by entering calculated waypoints and flight
+		parameters in FMC to verify calculated trajectory expectations.
+	</li>
+	<li>
+		Wind Updates/Route Sync (Java): Automated retrieval of NOAA weather models for memory-based
+		weather cache. This cache rapidly updates flight path calculations and suggests re-routes for
+		fuel savings.
+	</li>
+	<li>
+		Cockpit messaging – (Java): Developed ground-based ATC tools to send CPDLC messages over
+		FANS-1/A and ATN networks. Involved various ARINC protocols (429, 629, 664).
+	</li>
+	<li>
+		Collaborative Situational Awareness (Java): Interagency information exchange using AIXM to
+		define airspace corridors and areas of interest. Messaging exchanged via (JMS, ActiveMQ, and IBM
+		MQ) with partners (MIT Lincoln Labs, Embry-Riddle, Lockheed Martin, Raytheon, ICAO).
+		Microservices deployed on Tomcat/IBM Web Sphere.
+	</li>
+	<li>
+		Cockpit Configurable Graphics Display: NodeJS/HTML5 application running on iPhone using
+		web-socket/TCP bridge developed to communicate with cockpit EFB (electronic flight bag).
+		Provided speed guidance to the pilot to meet interval spacing requirements.
+	</li>
+	<li>
+		Secure Container Tracking (HTML/PHP): Visual display of shipping container locations for
+		situational awareness, deployed on Apache web server
+	</li>
+</ul>
+DevOps:
+<ul>
+	<li>Jenkins - CI/CD configuration to run tests, and deploy to lab-managed servers.</li>
+	<li>
+		OpenVPN - Deployed and configured server to establish secure network between aircraft and ground
+		station
+	</li>
+</ul>
+Linux Administration:
+<ul>
+	<li>Managed a variety of Linux HP and IBM servers with VMware ESXI</li>
+	<li>Deployed, and configured web servers: Apache, Nginx, Tomcat, Websphere</li>
+	<li>
+		Optimized user groups using PERL script to correlate active users with inactive users in the
+		group
+	</li>
+</ul>
+
+EDUCATION
+
+<ul>
+	<li>MS in Geophysics, University of Washington</li>
+	<li>BA in Physics, University of California - Berkeley</li>
+</ul>
+HOBBIES
+<ul>
+	<li>Snowboarding, tennis, kayaking, mountain biking</li>
+</ul>
+CERTIFICATIONS
+<ul>
+	<li>Computing Security Certificate (Stanford)</li>
+	<li>SOA Certified Professional (Arcitura)</li>
+</ul>
